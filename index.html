@@ -57,10 +57,17 @@
       padding: .5rem clamp(.25rem, 2vw, 1.5rem);
     }
 
+    header {
+      width: min(1180px, 100%);
+      margin-inline: auto;
+      padding-inline: 1rem;
+    }
+
     .brand-logo {
       display: block;
       width: clamp(130px, 17vw, 210px);
       height: auto;
+      transform: translateX(-10.56%);
     }
 
     .small-label, .eyebrow, .card-kicker, .card-number {
@@ -75,7 +82,7 @@
       position: relative;
       z-index: 1;
       width: min(1180px, 100%);
-      margin: -.75rem auto 0;
+      margin: .5rem auto 0;
       display: grid;
       grid-template-columns: minmax(0, 1.65fr) minmax(280px, .7fr);
       gap: clamp(3rem, 7vw, 8rem);
